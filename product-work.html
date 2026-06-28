@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How to prepare for a difficult HR meeting — ClearlyPrepared</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --navy: #0D1B2A; --navy-mid: #1B3A5C; --blue: #2563A8; --blue-lt: #EBF3FB;
+    --slate: #4A5C6E; --mist: #8BA5C2; --silver: #E8EDF2; --snow: #F7F9FC;
+    --white: #FFFFFF; --text: #1A2533; --radius: 8px; --radius-lg: 14px;
+  }
+  body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--white); font-size: 15px; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+
+  nav { position: sticky; top: 0; z-index: 100; display: flex; align-items: center; justify-content: space-between; padding: 0 48px; height: 60px; background: rgba(255,255,255,0.92); backdrop-filter: blur(12px); border-bottom: 1px solid var(--silver); }
+  .nav-logo { font-family: 'DM Serif Display', serif; font-size: 20px; color: var(--navy); text-decoration: none; }
+  .nav-logo em { font-style: italic; color: var(--blue); }
+  .nav-links { display: flex; align-items: center; gap: 32px; }
+  .nav-links a { font-size: 13px; color: var(--slate); text-decoration: none; }
+  .nav-btn { font-size: 13px; font-weight: 500; color: var(--white); background: var(--navy); border: none; border-radius: var(--radius); padding: 8px 20px; cursor: pointer; text-decoration: none; }
+
+  .breadcrumb { padding: 14px 48px; font-size: 12px; color: var(--mist); border-bottom: 1px solid var(--silver); }
+  .breadcrumb a { color: var(--mist); text-decoration: none; }
+  .breadcrumb a:hover { color: var(--slate); }
+  .breadcrumb span { margin: 0 6px; }
+
+  .product-layout { display: grid; grid-template-columns: 1fr 340px; gap: 48px; padding: 48px 48px; max-width: 1100px; margin: 0 auto; }
+
+  .prod-left {}
+  .prod-tag { display: inline-block; font-size: 10px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; padding: 4px 12px; border-radius: 40px; margin-bottom: 16px; }
+  .tag-health { background: #E8F5EE; color: #1A6B3A; }
+  .tag-biz    { background: #EBF3FB; color: #0C4480; }
+  .tag-work   { background: #FDF3E3; color: #7A4A0A; }
+  .tag-re     { background: #EFEDFD; color: #3C2E8C; }
+  .tag-life   { background: #FDECEA; color: #8C2318; }
+
+  .prod-title { font-family: 'DM Serif Display', serif; font-size: 36px; color: var(--navy); font-weight: 400; line-height: 1.2; letter-spacing: -0.5px; margin-bottom: 12px; }
+  .prod-subtitle { font-size: 17px; color: var(--slate); font-weight: 300; line-height: 1.6; margin-bottom: 28px; }
+
+  .preview-box { background: var(--navy); border-radius: var(--radius-lg); padding: 32px; margin-bottom: 32px; }
+  .preview-box-label { font-size: 10px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--mist); margin-bottom: 16px; }
+  .preview-item { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 12px; }
+  .preview-check { width: 16px; height: 16px; border: 1.5px solid var(--mist); border-radius: 3px; flex-shrink: 0; margin-top: 2px; }
+  .preview-text { font-size: 13px; color: #C8D8EA; font-weight: 300; line-height: 1.5; }
+
+  .section-label { font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--blue); margin-bottom: 10px; }
+  .section-title { font-family: 'DM Serif Display', serif; font-size: 22px; color: var(--navy); margin-bottom: 16px; font-weight: 400; }
+  .who-box { background: var(--snow); border: 1px solid var(--silver); border-radius: var(--radius-lg); padding: 20px 24px; margin-top: 32px; }
+  .who-text { font-size: 14px; color: var(--slate); font-weight: 300; line-height: 1.7; }
+
+  .prod-right {}
+  .buy-card { background: var(--white); border: 1px solid var(--silver); border-radius: var(--radius-lg); padding: 28px; position: sticky; top: 80px; }
+  .buy-price { font-family: 'DM Serif Display', serif; font-size: 42px; color: var(--navy); margin-bottom: 4px; }
+  .buy-note { font-size: 12px; color: var(--mist); font-weight: 300; margin-bottom: 20px; }
+  .buy-btn { display: block; width: 100%; font-size: 15px; font-weight: 500; color: var(--white); background: var(--blue); border: none; border-radius: var(--radius); padding: 14px; cursor: pointer; text-align: center; margin-bottom: 10px; transition: background 0.15s; }
+  .buy-btn:hover { background: #1d52a0; }
+  .buy-btn-ghost { display: block; width: 100%; font-size: 14px; font-weight: 400; color: var(--slate); background: var(--snow); border: 1px solid var(--silver); border-radius: var(--radius); padding: 12px; cursor: pointer; text-align: center; margin-bottom: 20px; }
+  .buy-features { border-top: 1px solid var(--silver); padding-top: 18px; }
+  .buy-feature { display: flex; align-items: center; gap: 10px; font-size: 13px; color: var(--slate); font-weight: 300; margin-bottom: 10px; }
+  .buy-feature-icon { color: var(--blue); font-size: 14px; }
+
+  .bundle-card { background: var(--navy); border-radius: var(--radius-lg); padding: 24px; margin-top: 16px; }
+  .bundle-card-eyebrow { font-size: 10px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--mist); margin-bottom: 8px; }
+  .bundle-card-title { font-size: 14px; font-weight: 500; color: var(--white); margin-bottom: 6px; line-height: 1.4; }
+  .bundle-card-sub { font-size: 12px; color: var(--mist); font-weight: 300; margin-bottom: 14px; }
+  .bundle-card-price { font-family: 'DM Serif Display', serif; font-size: 24px; color: var(--white); margin-bottom: 12px; }
+  .bundle-card-was { font-size: 11px; color: var(--mist); text-decoration: line-through; margin-bottom: 2px; }
+  .btn-bundle-sm { width: 100%; font-size: 13px; font-weight: 500; color: var(--navy); background: var(--white); border: none; border-radius: var(--radius); padding: 10px; cursor: pointer; }
+
+  .nav-between { display: flex; justify-content: space-between; padding: 32px 48px; border-top: 1px solid var(--silver); }
+  .nav-between a { font-size: 13px; color: var(--blue); text-decoration: none; display: flex; align-items: center; gap: 6px; }
+  .nav-between a:hover { color: var(--navy); }
+
+  footer { background: var(--white); border-top: 1px solid var(--silver); padding: 32px 48px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+  .footer-logo { font-family: 'DM Serif Display', serif; font-size: 17px; color: var(--navy); }
+  .footer-logo em { font-style: italic; color: var(--blue); }
+  .footer-links { display: flex; gap: 24px; }
+  .footer-links a { font-size: 13px; color: var(--slate); text-decoration: none; }
+  .footer-copy { font-size: 12px; color: var(--mist); }
+
+  @media (max-width: 900px) {
+    nav { padding: 0 24px; }
+    .breadcrumb { padding: 12px 24px; }
+    .product-layout { grid-template-columns: 1fr; padding: 24px; gap: 24px; }
+    .prod-right { order: -1; }
+    .buy-card { position: static; }
+    .nav-between { padding: 24px; }
+    footer { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">Clearly<em>Prepared</em></a>
+  <div class="nav-links">
+    <a href="shop.html">Browse all</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="shop.html" class="nav-btn">Shop now</a>
+  </div>
+</nav>
+
+<div class="breadcrumb">
+  <a href="index.html">Home</a><span>›</span>
+  <a href="shop.html">Shop</a><span>›</span>
+  Workplace
+</div>
+
+<div class="product-layout">
+  <div class="prod-left">
+    <span class="prod-tag tag-work">Workplace</span>
+    <h1 class="prod-title">How to prepare for a difficult HR meeting</h1>
+    <p class="prod-subtitle">Know your rights. Have your notes. Walk in ready.</p>
+
+    <div class="preview-box">
+      <p class="preview-box-label">What's inside this checklist</p>
+          <div class="preview-item"><div class="preview-check"></div><p class="preview-text">Pre-meeting prep: what to bring and what to review</p></div>
+          <div class="preview-item"><div class="preview-check"></div><p class="preview-text">Your rights as an employee during HR proceedings</p></div>
+          <div class="preview-item"><div class="preview-check"></div><p class="preview-text">Questions to ask — and answers to document</p></div>
+          <div class="preview-item"><div class="preview-check"></div><p class="preview-text">How to respond to common difficult scenarios</p></div>
+          <div class="preview-item"><div class="preview-check"></div><p class="preview-text">What to do immediately after the meeting</p></div>
+          <div class="preview-item"><div class="preview-check"></div><p class="preview-text">Documentation checklist to protect yourself</p></div>
+    </div>
+
+    <p class="section-label">About this template</p>
+    <p style="font-size:15px; color:var(--slate); font-weight:300; line-height:1.8;">Being called into an HR meeting is stressful — whether you're an employee facing a tough conversation or a manager conducting one. This checklist helps you prepare for both sides of the table.</p>
+
+    <div class="who-box">
+      <p class="section-label">Who this is for</p>
+      <p class="who-text">Employees facing performance reviews, disciplinary meetings, complaints, or termination conversations. Also useful for HR managers and small business owners.</p>
+    </div>
+  </div>
+
+  <div class="prod-right">
+    <div class="buy-card">
+      <p class="buy-price">$9</p>
+      <p class="buy-note">One-time purchase · Instant PDF download</p>
+      <button class="buy-btn">Buy now — $9</button>
+      <button class="buy-btn-ghost">Preview sample page</button>
+      <div class="buy-features">
+        <div class="buy-feature"><span class="buy-feature-icon">✓</span> Instant PDF download</div>
+        <div class="buy-feature"><span class="buy-feature-icon">✓</span> Print-ready format</div>
+        <div class="buy-feature"><span class="buy-feature-icon">✓</span> Plain language — no jargon</div>
+        <div class="buy-feature"><span class="buy-feature-icon">✓</span> Works on any device</div>
+        <div class="buy-feature"><span class="buy-feature-icon">✓</span> No account needed</div>
+      </div>
+    </div>
+
+    <div class="bundle-card">
+      <p class="bundle-card-eyebrow">Better value</p>
+      <p class="bundle-card-title">Get all 5 templates in the Starter Pack</p>
+      <p class="bundle-card-sub">Includes this template plus all other categories.</p>
+      <p class="bundle-card-was">$45 separately</p>
+      <p class="bundle-card-price">$27</p>
+      <button class="btn-bundle-sm">Get the bundle</button>
+    </div>
+  </div>
+</div>
+
+<div class="nav-between">
+  <a href="product-biz.html">← Business triage checklist</a>
+  <a href="product-re.html">Lease signing checklist →</a>
+</div>
+
+<footer>
+  <span class="footer-logo">Clearly<em>Prepared</em></span>
+  <div class="footer-links">
+    <a href="shop.html">Shop</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <span class="footer-copy">© 2026 ClearlyPrepared · clearlyprepared.com</span>
+</footer>
+
+</body>
+</html>
